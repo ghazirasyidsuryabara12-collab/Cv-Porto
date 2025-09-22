@@ -1,7 +1,7 @@
 // App.jsx
 import { useState, useEffect } from "react";
 import "./App.css";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
 import Header from "./components/Header/Header";
 import { HeroSection } from "./components/HeroSection/HeroSection";
 import StripedBackground from "./components/lightswind/StripedBackground";
@@ -30,11 +30,9 @@ function App() {
       const currentScrollY = window.scrollY;
 
       if (currentScrollY > lastScrollY) {
-        // scrolling down -> show Dock
-        setShowDock(true);
+        setShowDock(true); // scrolling down -> show Dock
       } else {
-        // scrolling up -> hide Dock
-        setShowDock(false);
+        setShowDock(false); // scrolling up -> hide Dock
       }
 
       setLastScrollY(currentScrollY);
@@ -94,26 +92,14 @@ function App() {
           lg:rounded-3xl backdrop-blur-xl border-gray-100 dark:border-gray-900"
         >
           <div className="z-10">
-            {/* Give IDs to sections */}
-            <div id="home">
-              <HeroSection />
-            </div>
-            <div id="about">
-              <AboutSection />
-            </div>
-            <div id="education">
-              <EducationSection />
-            </div>
-            <div id="career">
-              <CareerTimeline />
-            </div>
-            <div id="projects">
-              <ProjectsSection />
-            </div>
+            <div id="home"><HeroSection /></div>
+            <div id="about"><AboutSection /></div>
+            <div id="education"><EducationSection /></div>
+            <div id="career"><CareerTimeline /></div>
+            <div id="projects"><ProjectsSection /></div>
           </div>
         </div>
 
-        {/* Dock with smooth show/hide animation */}
         <AnimatePresence>
           {showDock && (
             <motion.div
@@ -134,7 +120,8 @@ function App() {
         </AnimatePresence>
       </ReactLenis>
 
-      {/* <SmoothCursor /> */}
+      {/* Aktifkan Vercel Analytics */}
+      <Analytics />
     </div>
   );
 }
