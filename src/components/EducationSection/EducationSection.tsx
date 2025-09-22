@@ -46,19 +46,6 @@ export const EducationSection = () => {
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle>SDN Gondrong 02</CardTitle>
-              <p className="text-sm text-muted-foreground">
-                2010 – 2013
-              </p>
-            </CardHeader>
-            <CardContent className="text-xs text-muted-foreground space-y-2">
-              <p>
-                Menyelesaikan pendidikan dasar dengan prestasi akademik yang baik.
-              </p>
-            </CardContent>
-          </Card>
-          <Card>
-            <CardHeader>
               <CardTitle>MTs Jabal Nur</CardTitle>
               <p className="text-sm text-muted-foreground">
                 2013 – 2016
@@ -67,6 +54,19 @@ export const EducationSection = () => {
             <CardContent className="text-xs text-muted-foreground space-y-2">
               <p>
                 Menyelesaikan pendidikan menengah pertama dengan fokus pada nilai-nilai akademis dan karakter.
+              </p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle>Sdn Gondrong 02</CardTitle>
+              <p className="text-sm text-muted-foreground">
+                2007 – 2013
+              </p>
+            </CardHeader>
+            <CardContent className="text-xs text-muted-foreground space-y-2">
+              <p>
+                Menyelesaikan pendidikan dasar dengan prestasi akademik yang baik.
               </p>
             </CardContent>
           </Card>

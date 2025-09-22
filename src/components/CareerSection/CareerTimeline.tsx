@@ -6,7 +6,7 @@ export const CareerTimeline = () => {
     {
       year: "Jan 2023 – Aug 2025",
       title: "Business Development",
-      subtitle: "PT Aizhihulu Indonesia",
+      subtitle: "PT Aizhilian Indonesia",
       description:
         "Menyusun dan mempresentasikan proposal bisnis yang menarik, menjelaskan secara detail layanan gudang, pengangkasan, dan manfaatnya bagi efisiensi operasional klien. Menjadi titik kontak utama bagi klien, memastikan layanan yang diberikan berjalan lancar dan sesuai ekspektasi. Melakukan riset pasar untuk memahami tren industri, kompetitor, dan kebutuhan pasar terkait jasa gudang dan logistik.",
       icon: <Briefcase className="h-4 w-4 mr-2 text-primary" />,
