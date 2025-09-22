@@ -107,7 +107,7 @@ export const HeroSection = () => {
           <div className="flex items-center gap-2">
             <Mail className="w-4 h-4" />
             <a href="mailto:ghazirasyidsurbara12@gmail.com" className="hover:text-primary transition-colors">
-              ghazirasyidsurbaran2@gmail.com
+              ghazirasyidsurbara12@gmail.com
             </a>
           </div>
           <div className="flex items-center gap-2">
