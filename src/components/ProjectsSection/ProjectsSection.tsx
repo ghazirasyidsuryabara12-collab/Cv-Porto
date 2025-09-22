@@ -10,7 +10,7 @@ export const ProjectsSection = () => {
       id: 1,
       title: "Sistem Manajemen Gudang Terintegrasi",
       subtitle:
-        "Mengembangkan sistem manajemen gudang yang terintegrasi dengan AI untuk optimisasi penyimpanan dan distribusi barang di PT Aizhihulu Indonesia.",
+        "Mengembangkan sistem manajemen gudang yang terintegrasi dengan AI untuk optimisasi penyimpanan dan distribusi barang di PT Aizhilian Indonesia.",
       date: "2024",
       link: "#",
       image:
