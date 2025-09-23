@@ -40,7 +40,7 @@ export const ProjectsSection = () => {
       id: 4,
       title: "Sistem CRM untuk Financial Services",
       subtitle:
-        "Mengembangkan sistem Customer Relationship Management yang membantu meningkatkan kepuasan nasabah hingga 50% di Worn Finance.",
+        "Mengembangkan sistem Customer Relationship Management yang membantu meningkatkan kepuasan nasabah hingga 50% di Wom Finance.",
       date: "2020",
       link: "#",
       image:
