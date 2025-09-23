@@ -17,7 +17,7 @@ export const profileConfig = {
   location: "Tangerang, Indonesia",
   
   // Contact information
-  email: "ghazirasyidsurbara12@gmail.com",
+  email: "ghazirasyidsuryabara12@gmail.com",
   phone: "088224632037",
   address: "Tangerang, Jl. kh Dewantara Gondrong Sebrang"
 };

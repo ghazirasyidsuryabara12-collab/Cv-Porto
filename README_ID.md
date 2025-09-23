@@ -252,7 +252,7 @@ Project ini menggunakan template dari Lightswind UI Library.
 ## 🤝 Dukungan
 
 Jika ada pertanyaan atau butuh bantuan:
-- Email: ghazirasyidsurbara12@gmail.com
+- Email: ghazirasyidsuryabara12@gmail.com
 - Phone: 088224632037
 
 ---
