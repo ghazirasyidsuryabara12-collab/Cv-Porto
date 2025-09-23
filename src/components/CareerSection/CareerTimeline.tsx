@@ -22,13 +22,16 @@ export const CareerTimeline = () => {
     {
       year: "Jan 2019 – Jan 2020",
       title: "CRO",
-      subtitle: "Worn Finance",
+      subtitle: "Wom Finance",
       description:
         "Menjaga kualitas Meningkatkan Hubungan dengan Nasabah, Mengatasi Masalah dan Keluhan, Administrasi dan Pelaporan.",
       icon: <Award className="h-4 w-4 mr-2 text-primary" />,
     },
   ];
 
+    // ✅ Debug: tampilkan isi careerEvents di console browser
+  console.log("Career events data:", careerEvents);
+  
   return (
     <div id="career">
       <ScrollTimeline
